@@ -1,0 +1,42 @@
+name: py3-6
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python =3.6
+    - iris =2.1
+    - numpy =1.14
+    - scipy =1.1
+    - netcdf4==1.4
+    - cython
+    - matplotlib =2.2
+    - pillow 
+    - nc-time-axis
+    - cf_units
+    # - digestive::mule
+    - filelock
+    - pandas =0.23.1
+    - ipython
+    - jupyter
+    - jupyterlab
+    # Testing
+    - pep8
+    - nose
+    - mock
+    - pytest
+    # Optional
+    - python-stratify
+    - gdal
+    - sphinx
+    - sphinx_rtd_theme
+    - openpyxl
+    - django =2.0
+    - django-filter 
+    - google-api-python-client
+    - pytz
+    - psycopg2 
+    - pip:
+       - f90nml
+       - django-solo
+       - django-tables2
+
