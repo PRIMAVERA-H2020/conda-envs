@@ -13,7 +13,8 @@ dependencies:
     - pillow 
     - nc-time-axis
     - cf_units
-    # - digestive::mule
+    - netcdftime
+      # - digestive::mule
     - filelock
     - pandas =0.23.1
     - ipython
