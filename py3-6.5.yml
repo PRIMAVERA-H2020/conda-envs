@@ -25,6 +25,8 @@ dependencies:
     - nose
     - mock
     - pytest
+    - pylint
+    - pycodestyle
     # Optional
     - python-stratify
     - gdal
