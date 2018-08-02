@@ -20,6 +20,8 @@ dependencies:
     - ipython
     - jupyter
     - jupyterlab
+    - graphviz
+    - python-graphviz
     # Testing
     - pep8
     - nose
