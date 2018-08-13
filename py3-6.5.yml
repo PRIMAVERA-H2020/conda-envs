@@ -37,6 +37,7 @@ dependencies:
     - openpyxl
     - django =2.0
     - django-filter 
+    - gunicorn
     - google-api-python-client
     - pytz
     - psycopg2 
