@@ -4,8 +4,8 @@ channels:
     - defaults
 dependencies:
     - python =3.6
-    - iris =2.1
-    - numpy =1.14
+    - iris =2.2
+    - numpy =1.15
     - scipy =1.1
     - netcdf4==1.4
     - cython
@@ -16,7 +16,7 @@ dependencies:
     - netcdftime
       # - digestive::mule
     - filelock
-    - pandas =0.23.1
+    - pandas =0.23
     - ipython
     - jupyter
     - jupyterlab
@@ -35,12 +35,13 @@ dependencies:
     - sphinx
     - sphinx_rtd_theme
     - openpyxl
-    - django =2.0
+    - django =2.1
     - django-filter 
     - gunicorn
     - google-api-python-client
     - pytz
     - psycopg2 
+    - pika
     - pip:
        - f90nml
        - django-solo
