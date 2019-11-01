@@ -43,7 +43,7 @@ dependencies:
     - psycopg2 
     - pika
     - pip:
-       - f90nml
+        # - f90nml
        - django-solo
        - django-tables2
 
